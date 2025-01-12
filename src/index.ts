@@ -727,10 +727,6 @@ class NixInstallerAction extends DetSysAction {
           readOnly: true,
         },
         {
-          dir: "/lib64",
-          readOnly: true,
-        },
-        {
           dir: "/tmp",
           readOnly: false,
         },
